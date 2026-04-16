@@ -1,0 +1,58 @@
+26-04-16.17:26:33.762 [main            ] INFO  Application            - Starting Application using Java 17.0.14 with PID 24780 (D:\304\JavaEE\ai-mcp-gateway\ai-mcp-gateway-app\target\classes started by Administrator in D:\304\JavaEE\ai-mcp-gateway)
+26-04-16.17:26:33.764 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+26-04-16.17:26:34.221 [main            ] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[cn.tianjiale.ai]' package. Please check your configuration.
+26-04-16.17:26:34.542 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8091 (http)
+26-04-16.17:26:34.551 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+26-04-16.17:26:34.551 [main            ] INFO  StandardService        - Starting service [Tomcat]
+26-04-16.17:26:34.551 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.36]
+26-04-16.17:26:34.587 [main            ] INFO  [/api-gateway]         - Initializing Spring embedded WebApplicationContext
+26-04-16.17:26:34.587 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 794 ms
+26-04-16.17:26:34.625 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mcpGatewayController': Injection of resource dependencies failed
+26-04-16.17:26:34.627 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+26-04-16.17:26:34.638 [main            ] INFO  ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+26-04-16.17:26:34.655 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'cn.tianjiale.ai.cases.IMcpSessionService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'cn.tianjiale.ai.cases.IMcpSessionService' in your configuration.
+
+26-04-16.17:29:38.467 [main            ] INFO  Application            - Starting Application using Java 17.0.14 with PID 6360 (D:\304\JavaEE\ai-mcp-gateway\ai-mcp-gateway-app\target\classes started by Administrator in D:\304\JavaEE\ai-mcp-gateway)
+26-04-16.17:29:38.468 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+26-04-16.17:29:38.889 [main            ] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[cn.tianjiale.ai]' package. Please check your configuration.
+26-04-16.17:29:39.260 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8091 (http)
+26-04-16.17:29:39.268 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+26-04-16.17:29:39.270 [main            ] INFO  StandardService        - Starting service [Tomcat]
+26-04-16.17:29:39.270 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.36]
+26-04-16.17:29:39.300 [main            ] INFO  [/api-gateway]         - Initializing Spring embedded WebApplicationContext
+26-04-16.17:29:39.300 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 810 ms
+26-04-16.17:29:39.334 [main            ] INFO  SessionManagementService - 会话管理服务已启动，会话超时时间：30 分钟
+26-04-16.17:29:39.394 [main            ] INFO  OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+26-04-16.17:29:39.676 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+26-04-16.17:29:39.687 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8091 (http) with context path '/api-gateway'
+26-04-16.17:29:39.692 [main            ] INFO  Application            - Started Application in 1.537 seconds (process running for 1.896)
+26-04-16.17:30:04.706 [http-nio-8091-exec-1] INFO  [/api-gateway]         - Initializing Spring DispatcherServlet 'dispatcherServlet'
+26-04-16.17:30:04.706 [http-nio-8091-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+26-04-16.17:30:04.706 [http-nio-8091-exec-1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+26-04-16.17:30:04.743 [http-nio-8091-exec-1] INFO  McpGatewayController   - 建立MCP连接:test10001
+26-04-16.17:30:04.743 [http-nio-8091-exec-1] INFO  RootNode               - 创建会话 mcp session RootNode:test10001
+26-04-16.17:30:04.743 [http-nio-8091-exec-1] INFO  SessionNode            - 创建会话-SessionNode:test10001
+26-04-16.17:30:04.743 [http-nio-8091-exec-1] INFO  SessionManagementService - 创建会话 gatewayId:test10001
+26-04-16.17:30:04.770 [http-nio-8091-exec-1] INFO  SessionManagementService - 创建会话 gatewayId:test10001 sessionId:5242afd3-e8d3-4458-99a8-cba015a82c68,当前会话活跃数:1
+26-04-16.17:30:04.772 [http-nio-8091-exec-1] INFO  EndNode                - 创建会话-EndNode:test10001
+26-04-16.17:30:28.945 [SpringApplicationShutdownHook] INFO  GracefulShutdown       - Commencing graceful shutdown. Waiting for active requests to complete
+26-04-16.17:30:59.068 [SpringApplicationShutdownHook] INFO  DefaultLifecycleProcessor - Shutdown phase 2147482623 ends with 1 bean still running after timeout of 30000ms: [webServerGracefulShutdown]
+26-04-16.17:30:59.070 [http-nio-8091-exec-2] INFO  EndNode                - SSE连接取消，会话Id：5242afd3-e8d3-4458-99a8-cba015a82c68
+26-04-16.17:30:59.094 [tomcat-shutdown ] INFO  GracefulShutdown       - Graceful shutdown aborted with one or more requests still active
+26-04-16.17:30:59.095 [http-nio-8091-exec-2] WARN  DefaultHandlerExceptionResolver - Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+26-04-16.17:30:59.095 [http-nio-8091-exec-2] WARN  DefaultHandlerExceptionResolver - Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]

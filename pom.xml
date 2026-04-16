@@ -77,6 +77,11 @@
                 <version>8.0.28</version>
             </dependency>
             <dependency>
+                <groupId>cn.bugstack.wrench</groupId>
+                <artifactId>xfg-wrench-starter-design-framework</artifactId>
+                <version>3.0.0</version>
+            </dependency>
+            <dependency>
                 <groupId>io.projectreactor</groupId>
                 <artifactId>reactor-core</artifactId>
                 <version>3.7.3</version>

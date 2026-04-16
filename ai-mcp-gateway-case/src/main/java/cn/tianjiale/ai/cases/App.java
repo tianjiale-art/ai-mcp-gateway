@@ -1,4 +1,4 @@
-package cn.tianjiale.ai;
+package cn.tianjiale.ai.cases;
 
 /**
  * Hello world!

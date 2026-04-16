@@ -1,0 +1,20 @@
+26-04-16.17:26:34.221 [main            ] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[cn.tianjiale.ai]' package. Please check your configuration.
+26-04-16.17:26:34.625 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mcpGatewayController': Injection of resource dependencies failed
+26-04-16.17:26:34.655 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'cn.tianjiale.ai.cases.IMcpSessionService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'cn.tianjiale.ai.cases.IMcpSessionService' in your configuration.
+
+26-04-16.17:29:38.889 [main            ] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[cn.tianjiale.ai]' package. Please check your configuration.
+26-04-16.17:30:59.095 [http-nio-8091-exec-2] WARN  DefaultHandlerExceptionResolver - Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+26-04-16.17:30:59.095 [http-nio-8091-exec-2] WARN  DefaultHandlerExceptionResolver - Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
